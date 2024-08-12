@@ -23,10 +23,22 @@ Private subnet - VKE w/ k8s app, Database
 
 - Deployment sequence: infra -> resources -> app
 
+## Actions
+- Account created
+- Power user (provisioner) created
+{"Account ID":3000501014,"Username":"provisioner","Password":"Vickyd1010","Access key":"AKAPZjBmYjIzYmIxODhjNGIwZWI3MDVjMmY5OTBmYmYwNTE","Secret access key":"T0RCaVlUUTJabVZpTjJVNE5EVmpaVGszTldZek9UZGhPVEF3T0RRell6UQ=="}
 
 ## Feedback
 
+
 ### Console & Manual steps
+- Organization name is mandatory - personal users?
+- A mixture of Chinese and English (account setup in Chinese)
+- No place to manage/protect secret
+
 
 ### Terraform
 - no doc about remote backend configuration
+
+### Others
+- no Byteplus CLI?
