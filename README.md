@@ -12,8 +12,8 @@ Public subnet - Route table set to IGW with public ip, ALB/CLB
 Private subnet - VKE w/ k8s app, Database
 
 ### Manual Steps
-- [ ] create Byteplus account
-- [ ] Setup basic IAM credentials w/ provisioner access & store information in a parameter store
+- [x] create Byteplus account
+- [x] Setup basic IAM credentials w/ provisioner access & store information in a parameter store
 
 ### Terraform Structure
 - Backend managed by TOS
@@ -28,6 +28,7 @@ Private subnet - VKE w/ k8s app, Database
 - Power user (provisioner) created
 
 ## Feedback
+
 
 ### Console & Manual steps
 - Organization name is mandatory - personal users?
