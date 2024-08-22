@@ -17,11 +17,10 @@ Private subnet - VKE w/ k8s app, Database
 
 ### Terraform Structure
 - Backend managed by TOS
-- infra folder w/ VPC, Public/private Subnets, Route tables, IGW, security groups, ACLs(If Any)
-- resources folder w/ IAM instance role, Load Balancer, VKE cluster, Database, ToS
-- app folder w/ possible auth setup, namespace, app deployment, service exposure, ingress (if any, explore loadbalancer)
+- infra folder w/ VPC, Public/private Subnets, Route tables, IGW, security groups, ACLs(If Any),IAM instance role, Load Balancer, VKE cluster, Database, ToS
+- app folder w/ k8s providers, possible auth setup, namespace, app deployment, service exposure, ingress (if any, explore loadbalancer)wewewewe
 
-- Deployment sequence: infra -> resources -> app
+- Deployment sequence: infra -> app
 
 ## Actions
 - Account created
@@ -40,4 +39,8 @@ Private subnet - VKE w/ k8s app, Database
 - no doc about remote backend configuration
 
 ### Others
-- no Byteplus CLI?
+- no Byteplus CLI? - got Chinese version "ve" and can use against ap-southeast-1 / English version? same name?
+    ve doesn't have TOS; use tosutil instead
+
+
+
